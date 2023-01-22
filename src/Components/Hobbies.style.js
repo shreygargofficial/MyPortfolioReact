@@ -27,7 +27,7 @@ export const HobbiesStyle = StyleSheet.create({
         width:'400px',
         maxWidth:'400px',
         margin:'0px 10px',
-        background:'rgba(255,255,255,0.2)',
+        // background:'rgba(255,255,255,0.2)',
         zIndex:'1',
         height:'400px',
         overflow:'hidden',
@@ -136,7 +136,7 @@ export const HobbiesStyle = StyleSheet.create({
     zoom:{
         animationName: {
             '25%':{
-                transform: 'scale(1.2)',
+                transform: 'scale(1)',
             },
             '55%':{
                 transform: 'scale(1.5)',
@@ -145,12 +145,12 @@ export const HobbiesStyle = StyleSheet.create({
                 transform: 'scale(2)',
             },
             '100%':{
-                transform: 'scale(3)',
+                transform: 'scale(2.5)',
             },
         },
         animationIterationCount:'infinite',
         animationDuration:'1.7s',
-        animationDirection: 'alternate'
+        animationDirection: 'linear'
     },
     imgBasket:{
         width:'120px'

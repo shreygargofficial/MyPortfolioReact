@@ -45,7 +45,7 @@ export const BannerStyle = StyleSheet.create({
         top:'40vh',
         right:'100px',
         [media.tablet.mid]:{
-            background:'rgba(255,255,255,0.4)',
+            background:'none',
             width:'100%',
             top:'0',
             right:'0',
@@ -56,7 +56,6 @@ export const BannerStyle = StyleSheet.create({
             borderTop:'none',
         },
         [media.mobile.min]:{
-            background:'rgba(255,255,255,0.4)',
             width:'100%',
             top:'20vh',
             right:'0',

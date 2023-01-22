@@ -53,7 +53,6 @@ export const ExperienceStyle = StyleSheet.create({
         },
         [media.tablet.min]:{
             padding:'30px',
-            background: 'rgba(255,255,255,1)'
            
         }
     }
