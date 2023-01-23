@@ -27,10 +27,12 @@ export const ExperienceStyle = StyleSheet.create({
         [media.tablet.min]:{
             fontSize:'20px',
             padding:'10px',
+            paddingBottom:'100px'
         },
         [media.mobile.mid]:{
             fontSize:'14px',
-            padding:'10px',
+            padding:'20px 10px',
+            paddingBottom:'100px'
         },
       
     },

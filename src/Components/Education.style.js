@@ -7,6 +7,7 @@ export const EducationStyle = StyleSheet.create({
         backgroundSize:'cover',
         backgroundRepeat:'no-repeat',
         backgroundAttachment:'fixed',
+        paddingBottom:'100px'
        
 
     },
