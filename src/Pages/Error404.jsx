@@ -25,7 +25,7 @@ function Error404() {
     return ( 
         <>       
             <section style={style.container}>
-                <img src={`${window.location.origin}/images/shreyMobile.jpeg`} style={style.image}/>
+                <img src={`${window.location.origin}/images/shreyMobile.jpeg`} style={style.image} alt="error"/>
                 <div style={style.text}>Error 404</div>
             </section>
             <Footer/>

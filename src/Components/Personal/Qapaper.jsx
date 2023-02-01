@@ -2,9 +2,11 @@ import React from "react";
 import {BannerStyle} from './Banner.style'
 import {css} from 'aphrodite'
 import { Link } from "react-router-dom";
+import Footer from "../Shared/Footer";
 
 function Qapaper() {
     return ( 
+        <>
         <section className={css(BannerStyle.banner)}>
         <article className={css(BannerStyle.article)}>
             <div>
@@ -22,7 +24,6 @@ function Qapaper() {
                     <a target={'_blank'} href="https://www.qapaper.com">www.qapaper.com</a>
                 </p>
                    
-                   
             </div>
         </article>
         <Link to={"/personal/qapaper"}><div className={css(BannerStyle.arrow)}>
@@ -30,6 +31,8 @@ function Qapaper() {
         </div>
         </Link>
     </section>
+    <Footer/>
+    </>
      );
 }
 

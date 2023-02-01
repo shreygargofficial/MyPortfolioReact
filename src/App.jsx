@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import RoutesFile from "./routes";
 
 
