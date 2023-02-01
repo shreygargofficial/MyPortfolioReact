@@ -1,5 +1,5 @@
 import { StyleSheet } from "aphrodite";
-import media from "../Utils/media";
+import media from "../../Utils/media";
 
 export const footerStyle = StyleSheet.create({
     footer: {
@@ -17,6 +17,15 @@ export const footerStyle = StyleSheet.create({
     sections:{
         width:'33.2%',
         padding:'30px',
+    },
+    a:{
+        
+        [media.mobile.max]:{
+            fontSize:'16px',
+        },
+        [media.mobile.min]:{
+            fontSize:'12px',
+        },
     }
 
 })

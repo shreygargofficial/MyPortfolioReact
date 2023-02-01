@@ -1,5 +1,5 @@
 import {StyleSheet} from 'aphrodite';
-import media  from '../Utils/media';
+import media  from '../../Utils/media';
 
 export const ExperienceStyle = StyleSheet.create({
     header:{

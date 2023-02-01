@@ -1,7 +1,7 @@
 import React from 'react';
 import {css} from 'aphrodite'
 import {BannerStyle} from './Banner.style';
-import {experienceCalculation} from '../Utils/experience.js'
+import {experienceCalculation} from '../../Utils/experience.js'
 function Banner() {
     return ( 
         <section className={css(BannerStyle.bannerContainer)}>

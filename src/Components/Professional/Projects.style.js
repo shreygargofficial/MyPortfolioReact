@@ -1,13 +1,13 @@
 import { StyleSheet } from "aphrodite";
-import media from '../Utils/media';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import media from '../../Utils/media';
 export const projectsStyle = StyleSheet.create({
     banner:{
         background:'url(/images/projects.avif)',
         backgroundAttachment:"fixed",
         backgroundRepeat:'no-repeat',
+        minHeight:'800px',
         backgroundSize:'cover',
-        padding:'30px',
+        padding:'180px 30px',
         [media.tablet.mid]:{
             padding:'30px 5px',
         }

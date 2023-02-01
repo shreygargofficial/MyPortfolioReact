@@ -1,5 +1,5 @@
 import {StyleSheet} from 'aphrodite';
-import media  from '../Utils/media';
+import media  from '../../Utils/media';
 
 export const BannerStyle = StyleSheet.create({
     bannerContainer :{
@@ -47,7 +47,6 @@ export const BannerStyle = StyleSheet.create({
         [media.tablet.mid]:{
             background:'none',
             width:'100%',
-            top:'0',
             right:'0',
             color:'white',
             fontSize:'24px',
