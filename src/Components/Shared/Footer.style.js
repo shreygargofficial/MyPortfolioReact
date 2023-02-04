@@ -7,6 +7,7 @@ export const footerStyle = StyleSheet.create({
         color:'#fff',
         fontSize:'18px',
         display:'flex',
+        clear:'both',
         padding:'20px',
         [media.tablet.mid]:{
             display:'block',

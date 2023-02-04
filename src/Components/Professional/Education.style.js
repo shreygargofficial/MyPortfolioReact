@@ -28,17 +28,20 @@ export const EducationStyle = StyleSheet.create({
         overflowX:'scroll',
         [media.tablet.max]:{
             display:'block',
+            overflowX:'initial',
         }
     },
     bannerText: {
         margin:'10px',
         padding:'30px',
-        flexBasis:'800px',
+        width:'600px',
         background:'rgba(0,0,0,0.7)',
         fontSize:'19px',
         color:'white',
         [media.tablet.max]:{
-            margin:'20px 10px'
+            width:'90%',
+            margin:'0 auto',
+            marginTop:'10px',
         }
 
     }

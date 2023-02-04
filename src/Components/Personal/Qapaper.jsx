@@ -26,7 +26,7 @@ function Qapaper() {
                    
             </div>
         </article>
-        <Link to={"/personal/qapaper"}><div className={css(BannerStyle.arrow)}>
+        <Link to={"/personal/qapaperblog"}><div className={css(BannerStyle.arrow)}>
             Next
         </div>
         </Link>

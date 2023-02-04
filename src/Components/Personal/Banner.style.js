@@ -35,10 +35,11 @@ export const BannerStyle = StyleSheet.create({
         },
         [media.mobile.max]:{
             padding:'20px',
+            lineHeight:'30px',
             fontSize:'20px',
         },
         [media.mobile.mid]:{
-            padding:'10px',
+            padding:'20px',
             fontSize:'18px',
         },
         ':after':{
@@ -70,6 +71,7 @@ export const BannerStyle = StyleSheet.create({
         marginTop:'100px',
         color:'black',
         float:'right',
+        right:'30px',
         textDecoration:'none',
         '::after':{
             position: 'absolute',
@@ -91,6 +93,28 @@ export const BannerStyle = StyleSheet.create({
             width:'60px',
             height:'30px'
         },
+        animationName: {
+            '0%': {
+                translate: '0px 0px'
+            },
+            '25%': {
+                translate: '10px 2px'
+            },
+            '50%': {
+                translate: '-10px -2px'
+            },
+            '75%': {
+                translate: '10px 2px'
+            },
+            '100%': {
+                translate: '-10px -2px'
+            },
+        },
+animationDirection:'alternate',
+animationIterationCount:'infinite',
+animationDuration:'1.7s',
 
-    }
+
+    },
+   
 })
