@@ -4,9 +4,10 @@ import media  from '../../Utils/media';
 export const BannerStyle = StyleSheet.create({
     bannerContainer :{
         height: '100vh',
-        background: 'linear-gradient(45deg,rgba(0,0,0, 0.6),rgba(0,0,0,0.4)),url(images/Shrey.jpeg)',
+        background: 'linear-gradient(45deg,rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url(images/shreyMain.png)',
         backgroundRepeat:'no-repeat',
         backgroundPosition:'center',
+        backgroundSize:"cover",
         backgroundAttachment: 'fixed',
         position:'relative',
         [media.tablet.mid]:{
@@ -26,7 +27,7 @@ export const BannerStyle = StyleSheet.create({
         height:'100vh',
         background:'url(images/dot.png)',
         backgroundRepeat:'repeat',
-        backgroundSize:'12px',
+        backgroundSize:'8px',
         backgroundAttachment: 'fixed',
         [media.tablet.mid]:{
             backgroundSize:'10px',

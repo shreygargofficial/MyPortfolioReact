@@ -33,6 +33,10 @@ export const BannerStyle = StyleSheet.create({
             padding:'60px',
             fontSize:'30px',
         },
+        [media.tablet.mid]:{
+            padding:'30px',
+            fontSize:'30px',
+        },
         [media.mobile.max]:{
             padding:'20px',
             lineHeight:'30px',
@@ -62,6 +66,17 @@ export const BannerStyle = StyleSheet.create({
     image:{
         width:'100px'
     },
+    image2:{
+        margin:'0 auto',
+        textAlign:'center',
+        width:'500px',
+        [media.tablet.max]:{
+            width:'300px',
+        },
+        [media.mobile.mid]:{
+            width:'100px',
+        }
+    },
     arrow:{
         background:'tomato',
         padding:'20px',
@@ -69,14 +84,14 @@ export const BannerStyle = StyleSheet.create({
         width:'100px',
         position:'relative',
         marginTop:'100px',
-        color:'black',
+        color:'white',
         float:'right',
         right:'30px',
         textDecoration:'none',
         '::after':{
             position: 'absolute',
-            transform:'rotate(35deg)',
-            right:'-15px',
+            transform:'rotate(37deg)',
+            // right:'-19px',
             top:'-10px',
             content:'""',
             background:'white',
@@ -85,9 +100,9 @@ export const BannerStyle = StyleSheet.create({
         },
         '::before':{
             position: 'absolute',
-            transform:'rotate(-25deg)',
-            right:'-15px',
-            bottom:'-20px',
+            transform:'rotate(-28deg)',
+            right:'-10px',
+            bottom:'-14px',
             content:'""',
             background:'white',
             width:'60px',
@@ -110,9 +125,9 @@ export const BannerStyle = StyleSheet.create({
                 translate: '-10px -2px'
             },
         },
-animationDirection:'alternate',
-animationIterationCount:'infinite',
-animationDuration:'1.7s',
+        animationDirection:'alternate',
+        animationIterationCount:'infinite',
+        animationDuration:'1.7s',
 
 
     },

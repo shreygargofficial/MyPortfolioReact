@@ -48,7 +48,6 @@ export const CertificateStyle = StyleSheet.create({
     },
     imageContainer:{
         padding:'10px',
-        margin:'40px',
         width:'90%',
         margin:'0 auto',
         marginTop:'100px',

@@ -7,6 +7,8 @@ import { Route, Routes } from "react-router-dom";
 import Qapaper from "./Components/Personal/Qapaper";
 import QapaperBlogger from "./Components/Personal/QapaperBlogger";
 import FinessCertificates from "./Components/Personal/FitnessCertificates";
+import HealthyAndFitClub from "./Components/Personal/HealthyandFitClub";
+import BikeRiding from "./Components/Personal/BikeRiding";
 function RoutesFile() {
     return ( 
         <Routes>
@@ -16,6 +18,8 @@ function RoutesFile() {
             <Route exact path="/personal/qapaper" element={<Qapaper/>} />
             <Route exact path="/personal/qapaperblog" element={<QapaperBlogger/>} />
             <Route exact path="/personal/fitnessCertificate" element={<FinessCertificates/>} />
+            <Route exact path="/personal/healthyandfitclub" element={<HealthyAndFitClub/>} />
+            <Route exact path="/personal/bikeriding" element={<BikeRiding/>} />
             <Route path="*" element={<Error404/>} />
         </Routes>
      );
