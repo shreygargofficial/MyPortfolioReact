@@ -10,7 +10,7 @@ function QapaperBlogger() {
         <section className={css(BannerStyle.banner)}>
         <article className={css(BannerStyle.article)}>
             <div>
-                <h2 className={css(BannerStyle.heading)} >Blogger ats Qapaper</h2>
+                <h2 className={css(BannerStyle.heading)} >Blogger at Qapaper</h2>
                 <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/qapaper.png`} alt="react"/>
                 <p>Started blogging back in 2020 when pandemic hit and colleges started teaching and conducted exams from home. Which stops students to download question paper</p>
                 <p>
