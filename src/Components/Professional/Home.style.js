@@ -42,7 +42,7 @@ export const HomeStyle = StyleSheet.create({
         boxShadow:'0px 7px 10px 1px #ccc',
         [media.mobile.max]:{
             marginTop:'10px',
-            marginRight:'0'
+            marginRight:'10px'
         },
         ':hover':{
             boxShadow:'0px 0px 10px 1px #ccc',
