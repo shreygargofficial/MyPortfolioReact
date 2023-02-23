@@ -1,7 +1,9 @@
 import React from "react";
 import {css} from 'aphrodite'
-import {HomeStyle} from './Home.style'
+import {HomeStyle} from '../Components/Professional/Home.style'
 import {  useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 function Home() {
     const navigate = useNavigate()
 
@@ -12,7 +14,18 @@ function Home() {
         
     }
     return ( 
-   
+        <>
+         <Helmet>
+            <title>
+                Shrey Garg 
+            </title>
+            <meta
+                name="description"
+                content="Shrey Garg is a front-end developer with having professional experience in 
+                ReactJs. He is currently employed in Mindera."
+                />
+            <meta name="keywords" content="shrey garg, shrey garg personal, professional shrey garg data"/>
+        </Helmet>
         <section className={css(HomeStyle.container)}>
             <article className={css(HomeStyle.sliderContent)}>
                     <p className={css(HomeStyle.paraHeading)}>
@@ -22,7 +35,7 @@ function Home() {
                         Choose one of the following Portfolio type
                     </p>
                     <p>
-                    <img className={css(HomeStyle.img,HomeStyle.scale)} src="/images/guy.svg" alt="guy"/>
+                    <img className={css(HomeStyle.img,HomeStyle.scale)} src="/images/guy.svg" alt="shrey garg"/>
                     </p>
                     <p className={css(HomeStyle.buttonContainer)}>
                        <button onClick={()=>buttonHandler('/professional')} className={css(HomeStyle.button)}>Professional</button>
@@ -31,6 +44,8 @@ function Home() {
                     </p>
             </article>
         </section>
+        </>
+       
 );
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Professional from "./Pages/Professional";
-import Home from "./Components/Professional/Home";
+import Home from "./Pages/Home";
 import Error404 from "./Pages/Error404";
 import Personal from "./Pages/Personal";
 import { Route, Routes } from "react-router-dom";

@@ -13,11 +13,11 @@ function Banner() {
                     <p>
                         He also have a knowledge of Android and Game Developement
                     </p>
-                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/react.png`} alt="react"/>
-                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/node.png`} alt="node"/>
-                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/android.png`} alt="android"/>
-                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/sql.webp`} alt="sql"/>
-                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/unity.webp`} alt="unity"/>
+                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/react.png`} alt="react-shrey garg"/>
+                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/node.png`} alt="node-shrey garg"/>
+                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/android.png`} alt="android-shrey garg"/>
+                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/sql.webp`} alt="sql-shrey garg"/>
+                    <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/unity.webp`} alt="unity-shrey garg"/>
                 </div>
             </article>
             <Link to={"/personal/qapaper"}><div className={css(BannerStyle.arrow)}>

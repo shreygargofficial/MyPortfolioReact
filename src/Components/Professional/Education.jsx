@@ -8,7 +8,7 @@ function Education() {
     return ( 
         <>
            <section className={css(EducationStyle.banner)} >
-           <h2 className={css(ExperienceStyle.header)}><img src="icon/book.png" style={{ position:'relative',top:'10px' }} height={45} width={45} alt="education"/>Education</h2>
+           <h2 className={css(ExperienceStyle.header)}><img src="icon/book.png" style={{ position:'relative',top:'10px' }} height={45} width={45} alt="education-shrey garg"/>Education</h2>
                 <section className={css(EducationStyle.sectionUnderBanner)}>
                     <section className={css(EducationStyle.bannerTextContainer)}>
                         <div>

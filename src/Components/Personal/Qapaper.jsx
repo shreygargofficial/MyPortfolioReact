@@ -3,15 +3,27 @@ import {BannerStyle} from './Banner.style'
 import {css} from 'aphrodite'
 import { Link } from "react-router-dom";
 import Footer from "../Shared/Footer";
+import { Helmet } from "react-helmet";
 
 function Qapaper() {
     return ( 
         <>
+         <Helmet>
+            <title>
+                Shrey Garg - QAPAPER
+            </title>
+            <meta
+                name="description"
+                content="Shrey Garg Started Qapaper back in 2017 when he and his roomate find it difficult to search for previous year question papers for
+                their subject."
+                />
+            <meta name="keywords" content="shrey garg, shrey garg personal, professional shrey garg data"/>
+        </Helmet>
         <section className={css(BannerStyle.banner)}>
         <article className={css(BannerStyle.article)}>
             <div>
                 <h2 className={css(BannerStyle.heading)} >Co-Founder of Qapaper</h2>
-                <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/qapaper.png`} alt="react"/>
+                <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/qapaper.png`} alt="qapaper-shrey garg"/>
                 <p>Started Qapaper back in 2017 when he and his roomate find it difficult to search for previous year question papers for
                     their subject. </p>
                 <p>

@@ -5,7 +5,7 @@ function Experience() {
     return ( 
         <>
         <section className={css(ExperienceStyle.banner)}>
-        <h2 className={css(ExperienceStyle.header)}><img src="icon/experience.ico" style={{ position:'relative',top:'10px' }} height={45} width={45} alt="experience"/>Experience </h2>
+        <h2 className={css(ExperienceStyle.header)}><img src="icon/experience.ico" style={{ position:'relative',top:'10px' }} height={45} width={45} alt="experience-shrey garg"/>Experience </h2>
             <article className={css(ExperienceStyle.article)}>
                 <section className={css(ExperienceStyle.articleSection)} >
                  <h3>DIGITAL SPECIALIST ENGINEER AT INFOSYS </h3><br/>
