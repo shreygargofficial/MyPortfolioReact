@@ -22,9 +22,7 @@ function QapaperBlogger() {
             <div>
                 <h2 className={css(BannerStyle.heading)} >Blogger at Qapaper</h2>
                 <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/qapaper.png`} alt="qapaper-shrey garg"/>
-                <p>Started blogging back in 2020 when pandemic hit and colleges started teaching and conducted exams from home. Which stops students to download question paper</p>
-                <p>
-                  Wrote blogs on my job profile which was newly started and was unknown for many freshers, financial sector and on colleges.
+                <p>Shrey started blogging in 2020 when there was a pandemic due to the coronavirus, and the colleges have started teaching and conducting exams from home. This limits the students to download the question papers, so he decided to Write blogs on his job profile, the financial sector, and college.
                 </p>
                
                 <p>

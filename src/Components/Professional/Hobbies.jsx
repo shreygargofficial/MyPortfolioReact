@@ -31,7 +31,7 @@ function Hobbies() {
                 </article>
                 <article className={css(HobbiesStyle.hobbiesList)}>
                     <div className={css(HobbiesStyle.hobbiesListHeading)}>
-                        Movie
+                        Movies
                     </div>
                     <div className={css(HobbiesStyle.imgContainerBasket,HobbiesStyle.imgContainerMovie)}>
                         <img className={css(HobbiesStyle.imgMovie,HobbiesStyle.zoom)}src="/images/movie.jpeg" alt="movie"/>

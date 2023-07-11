@@ -9,10 +9,11 @@ function Banner() {
             <article className={css(BannerStyle.article)}>
                 <div>
                     <h2 className={css(BannerStyle.heading)} >SHREY GARG</h2>
-                    <p>Shrey garg is a front as well as backend developer with having a knowledge of DBMS. </p>
+                    <p>Shrey garg knows both web development, as well as Android development, along with DBMS. </p>
                     <p>
-                        He also have a knowledge of Android and Game Developement
+                       
                     </p>
+                    <br/>
                     <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/react.png`} alt="react-shrey garg"/>
                     <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/node.png`} alt="node-shrey garg"/>
                     <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/android.png`} alt="android-shrey garg"/>

@@ -14,6 +14,6 @@ export const experienceCalculation= (oldDate,newDate)=>{
         outputMonth = newMonth - oldMonth;
         outputYear =newYear-oldYear
     }
-    return outputYear + " Years "+ outputMonth +" Months"
+    return (outputYear > 1 ? outputYear + " Years " : outputYear + " Year & ")+ (outputMonth ? outputMonth +" Months" : "")
 }
 

@@ -24,13 +24,9 @@ function Qapaper() {
             <div>
                 <h2 className={css(BannerStyle.heading)} >Co-Founder of Qapaper</h2>
                 <img className={css(BannerStyle.image)} src={`${window.location.origin}/images/qapaper.png`} alt="qapaper-shrey garg"/>
-                <p>Started Qapaper back in 2017 when he and his roomate find it difficult to search for previous year question papers for
-                    their subject. </p>
-                <p>
-                   Qapaper is all about viewing and downloading previous year question papers for many universities curently it has SRM, VIT, Wbut, Medicaps and Mumbai University.
-                </p>
-                <p>
-                    Anyone can download previous year question paper in just 4 clicks.
+                <p>Qapaper started in 2017 when he and his roommate were incapable to search for the previous year's question papers for their subject.
+                    Qapaper is about viewing and downloading previous year's question papers for many universities. Currently, it has SRM, VIT, Wbut, Medicaps, and Mumbai University question papers.
+                    Anyone can download the previous year's question paper with just a few clicks.
                 </p>
                 <p>
                     <a target={'_blank'} href="https://www.qapaper.com">www.qapaper.com</a>
