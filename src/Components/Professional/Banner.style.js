@@ -8,7 +8,7 @@ export const BannerStyle = StyleSheet.create({
         backgroundRepeat:'no-repeat',
         backgroundPosition:'center',
         backgroundSize:"cover",
-        backgroundAttachment: 'fixed',
+        filter: "grayscale(100%)",
         position:'relative',
         [media.tablet.mid]:{
             background: 'linear-gradient(45deg,rgba(0,0,6, 0.75),rgba(0,0,0,0.7)),url(images/shreyMobile.jpeg)',

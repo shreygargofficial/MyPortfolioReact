@@ -1,15 +1,15 @@
-import React from "react";
+import React,{useContext} from "react";
 import {ExperienceStyle} from './Experience.style'
 import {HobbiesStyle} from './Hobbies.style'
 import {css} from 'aphrodite'
+import { iphoneContext } from '../Shared/IphoneContextProvider.jsx';
+import { main } from '../Shared/mainStyle.js';
 
 function Hobbies() {
+    const iphoneContextConsumer = useContext(iphoneContext);
     return ( 
         <>
-        {/* <header className={css(ExperienceStyle.header)}>
-            Hobbies
-        </header> */}
-        <section className={css(HobbiesStyle.banner)}>
+        <section className={iphoneContextConsumer.isIphone ? css(HobbiesStyle.banner,main.attachmentS):css(HobbiesStyle.banner)}>
             <h2 className={css(ExperienceStyle.header)}><img src="icon/hobbies.png" style={{ position:'relative',top:'10px' }} height={45} width={45} alt="Hobbies-shrey garg"/>Hobbies</h2>
             <section className={css(HobbiesStyle.hobbiesListContainer)}>
                 <article className={css(HobbiesStyle.hobbiesList)}>

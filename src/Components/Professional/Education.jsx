@@ -1,13 +1,15 @@
-import React from "react";
+import React,{useContext} from "react";
 import {ExperienceStyle} from './Experience.style'
 import {EducationStyle} from './Education.style'
-
+import { iphoneContext } from '../Shared/IphoneContextProvider.jsx';
+import { main } from '../Shared/mainStyle.js';
 import {css} from 'aphrodite'
 
 function Education() {
+    const iphoneContextConsumer = useContext(iphoneContext);
     return ( 
         <>
-           <section className={css(EducationStyle.banner)} >
+           <section className={iphoneContextConsumer.isIphone ? css(EducationStyle.banner,main.attachmentS) :css(EducationStyle.banner,main.attachmentNS)} >
            <h2 className={css(ExperienceStyle.header)}><img src="icon/book.png" style={{ position:'relative',top:'10px' }} height={45} width={45} alt="education-shrey garg"/>Education</h2>
                 <section className={css(EducationStyle.sectionUnderBanner)}>
                     <section className={css(EducationStyle.bannerTextContainer)}>
