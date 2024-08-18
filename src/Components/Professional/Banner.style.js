@@ -15,7 +15,6 @@ export const BannerStyle = StyleSheet.create({
             backgroundPosition: "top center",
             backgroundRepeat:'no-repeat',
             backgroundSize:"cover",
-            backgroundAttachment: 'fixed',
         }
        
     },
