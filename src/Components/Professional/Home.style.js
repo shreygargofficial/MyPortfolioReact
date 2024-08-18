@@ -36,7 +36,7 @@ export const HomeStyle = StyleSheet.create({
         fontSize:'19px',
         borderRadius:'10px',
         cursor:'pointer',
-        padding:'18px',
+        padding:'14px',
         marginRight:'30px',
         width:'150px',
         boxShadow:'0px 7px 10px 1px #ccc',

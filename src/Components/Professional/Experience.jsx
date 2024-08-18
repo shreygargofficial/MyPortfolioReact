@@ -8,9 +8,8 @@ function Experience() {
     return ( 
         <>
         <section className={iphoneContextConsumer.isIphone ? css(ExperienceStyle.banner,main.attachmentS):  css(ExperienceStyle.banner)}>
-        <h2 className={css(ExperienceStyle.header)}><img src="icon/experience.ico" style={{ position:'relative',top:'10px' }} height={45} width={45} alt="experience-shrey garg"/>Experience </h2>
             <article className={css(ExperienceStyle.article)}>
-            <section className={css(ExperienceStyle.articleSection)}>
+            <section className={css(ExperienceStyle.articleSection)}  data-aos="zoom-in" data-aos-duration="400" data-aos-delay="100">
                <h3> Senior Software Developer- Mindera </h3>
                    <div style={{fontSize:'12px'}}> Nov 2021 - Present</div><br/>
                     <b>Trainline Project</b><br/><br/>
@@ -27,7 +26,7 @@ function Experience() {
                         </li>
                     </ul>
                 </section>
-                <section className={css(ExperienceStyle.articleSection)} >
+                <section className={css(ExperienceStyle.articleSection)}  data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
                  <h3>Software Developer-INFOSYS </h3>
                  <div style={{fontSize:'12px'}}>July 2019-Nov 2021 </div><br/>
                     <b>One-Stop Project</b> <br/><br/>

@@ -5,9 +5,9 @@ export const projectsStyle = StyleSheet.create({
         background:'url(/images/projects.avif)',
         backgroundAttachment:"fixed",
         backgroundRepeat:'no-repeat',
-        minHeight:'800px',
+        // minHeight:'800px',
         backgroundSize:'cover',
-        padding:'180px 30px',
+        padding:'20px 30px',
         [media.tablet.mid]:{
             padding:'30px 5px',
         }
@@ -18,7 +18,7 @@ export const projectsStyle = StyleSheet.create({
         maxWidth:'700px',
         color:'black',
         margin:'0 auto',
-        marginBottom:'100px',
+        // marginBottom:'100px',
         padding:'50px 50px',
         ':nth-child(1n) > ul': {
             listStyleType:'lower-latin',

@@ -1,13 +1,15 @@
 import React from "react";
 import { css } from "aphrodite";
 import { footerStyle } from "./Footer.style";
+import {resume} from '../../Utils/links'
+
 function Footer() {
   return (
     <footer className={css(footerStyle.footer)}>
       <section className={css(footerStyle.sections)}>
         <p>Contact: 7305898410</p>
         <p> Email: <a className={css(footerStyle.a)} href="mailto: shreygargofficial@gmail.com"> shreygargofficial@gmail.com</a></p>
-        <p>Resume: <a className={css(footerStyle.a)} href="https://docs.google.com/document/d/1q_Jf4Z2wpIbXTQtKiES-CSkIari15j7JrcLvPw1RTl0/edit?usp=share_link">Download</a></p>
+        <p>Resume: <a className={css(footerStyle.a)} href={resume}>Download</a></p>
       </section>
       <section className={css(footerStyle.sections)}>
         <p>

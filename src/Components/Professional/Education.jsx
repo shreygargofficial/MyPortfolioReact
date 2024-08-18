@@ -1,5 +1,4 @@
 import React,{useContext} from "react";
-import {ExperienceStyle} from './Experience.style'
 import {EducationStyle} from './Education.style'
 import { iphoneContext } from '../Shared/IphoneContextProvider.jsx';
 import { main } from '../Shared/mainStyle.js';
@@ -10,10 +9,9 @@ function Education() {
     return ( 
         <>
            <section className={iphoneContextConsumer.isIphone ? css(EducationStyle.banner,main.attachmentS) :css(EducationStyle.banner,main.attachmentNS)} >
-           <h2 className={css(ExperienceStyle.header)}><img src="icon/book.png" style={{ position:'relative',top:'10px' }} height={45} width={45} alt="education-shrey garg"/>Education</h2>
                 <section className={css(EducationStyle.sectionUnderBanner)}>
                     <section className={css(EducationStyle.bannerTextContainer)}>
-                        <div>
+                        <div className={css(main.padding1)}>
                             <article className={css(EducationStyle.bannerText)}>
                                 <h3>SRM University</h3><br/>
                                 <i>July2015 - May2019 </i><br/><br/>
@@ -23,7 +21,7 @@ function Education() {
                                 
                             </article>
                         </div>
-                        <div>
+                        <div className={css(main.padding1)}>
                             <article className={css(EducationStyle.bannerText)}>
                                 <h3>ILVA School</h3><br/>
                                 <i>May2014 - May2015 </i><br/><br/>
@@ -32,7 +30,7 @@ function Education() {
                                 <i>Indore,Madhya Pradesh</i><br/>
                             </article>
                         </div>
-                        <div>
+                        <div className={css(main.padding1)}>
                             <article className={css(EducationStyle.bannerText)}>
                                 <h3>VidyaSagar School</h3><br/>
                                 <i>May2012 - May2013 </i><br/><br/>
