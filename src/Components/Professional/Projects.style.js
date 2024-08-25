@@ -2,10 +2,10 @@ import { StyleSheet } from "aphrodite";
 import media from '../../Utils/media';
 export const projectsStyle = StyleSheet.create({
     banner:{
-        background:'url(/images/projects.avif)',
+        background:'linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(/images/projects.avif)',
         backgroundAttachment:"fixed",
         backgroundRepeat:'no-repeat',
-        // minHeight:'800px',
+        minHeight:'800px',
         backgroundSize:'cover',
         padding:'20px 30px',
         [media.tablet.mid]:{

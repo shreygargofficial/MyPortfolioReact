@@ -4,14 +4,14 @@ import media  from '../../Utils/media';
 export const BannerStyle = StyleSheet.create({
     bannerContainer :{
         height: '100vh',
-        background: 'linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(images/shrey.jpg)',
+        background: 'linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(images/bg.png)',
         backgroundRepeat:'no-repeat',
         backgroundPosition:'top right',
         backgroundSize:"cover",
         filter: "grayscale(100%)",
         position:'relative',
         [media.mobile.max]:{
-            background: 'linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(images/shreyMobile.jpg)',
+            background: 'linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(images/bgMobile.png)',
             backgroundPosition: "top center",
             backgroundRepeat:'no-repeat',
             backgroundSize:"cover",

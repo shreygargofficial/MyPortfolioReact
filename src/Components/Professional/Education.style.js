@@ -2,38 +2,33 @@ import {StyleSheet} from 'aphrodite';
 import media  from '../../Utils/media';
 
 export const EducationStyle = StyleSheet.create({
-    banner:{
-        background:'url(images/education.jpeg)',
-        backgroundSize:'cover',
-        backgroundRepeat:'no-repeat',
-       
 
-    },
     sectionUnderBanner:{
         padding:'20px',
-        display:'flex',
-        justifyContent:'center',
-        alignItems:'center',
-        [media.tablet.max]:{
-            display:'block',
-            height:'auto',
-            padding:'0px',
-        }
+        width:'800px',
+        display:'block',
+        margin:'30px auto',
+        marginBottom:'170px',
+
     },
     bannerTextContainer:{
         display:'flex',
-        overflowX:'scroll',
+        marginTop:'30px',
         [media.tablet.max]:{
             display:'block',
             overflowX:'initial',
         }
     },
+   imgContainer:{
+        width:'100px',
+        height:'100px',
+        borderRadius:'50%',
+        background:'rgb(135, 206, 235)',
+        padding:'10px'
+   },
     bannerText: {
-        padding:'30px',
-        width:'600px',
-        background:'rgba(0,0,0,0.7)',
         fontSize:'19px',
-        color:'white',
+        color:'black',
         [media.tablet.max]:{
             width:'90%',
             margin:'0 auto',

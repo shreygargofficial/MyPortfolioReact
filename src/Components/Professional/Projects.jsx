@@ -9,6 +9,7 @@ function Projects() {
     return ( 
 
         <section className={iphoneContextConsumer.isIphone ? css(projectsStyle.banner,main.attachmentS):css(projectsStyle.banner) } >
+             <h2 className={css(main.heading)}>Projects</h2>
              <article className={css(projectsStyle.article)}>
                 <ul id="project-ul">
                     <li><a target={'_blank'} href="https://www.qapaper.com">QAPaper - Platform to downlad universities question paper</a>&nbsp;<img src="icon/web.png" style={{ position:'relative',top:'4px' }} height={17} width={17} alt="web shrey"/></li>

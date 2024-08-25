@@ -53,7 +53,7 @@ export const BioStyle = StyleSheet.create({
     },
     cardTagTitle:{
         fontWeight:'bolder',
-        color:'cyan',
+        color:'#FFD700',
         textTransform:'uppercase',
     }
 })

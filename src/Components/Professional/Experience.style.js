@@ -18,7 +18,7 @@ export const ExperienceStyle = StyleSheet.create({
         }
     },
     banner:{
-        background: 'url(images/experience.jpeg)',
+        background: 'linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(images/blank.jpg)',
         backgroundRepeat:'no-repeat',
         backgroundPosition:'center',
         backgroundAttachment: 'fixed',
@@ -38,17 +38,21 @@ export const ExperienceStyle = StyleSheet.create({
     },
     article:{
         padding:'20px',
-        maxWidth:'700px',
         margin: '0 auto',
         [media.tablet.mid]:{
             padding:'0px',
         }
     },
     articleSection:{
+        display: 'flex',
         background: 'rgba(255,255,255,0.9)',
         margin:'40px',
         padding:'60px',
+        [media.tablet.max]:{
+            display:'block',
+        },
         [media.tablet.mid]:{
+            
             padding:'30px',
             margin:'2px',
             marginTop:'40px'
@@ -57,5 +61,20 @@ export const ExperienceStyle = StyleSheet.create({
             padding:'30px',
            
         }
+    },
+    articleSectionImg:{
+        flex:1,
+        display:'flex',
+        alignItems:'center',
+        padding:'0 20px',
+        [media.tablet.max]:{
+            padding:'0 100px',
+        },
+    },
+    articleSectionContent:{
+        flex:4
+    },
+    orderReverse:{
+        flexDirection: "row-reverse"
     }
 })

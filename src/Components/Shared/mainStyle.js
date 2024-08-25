@@ -25,8 +25,19 @@ export const main = StyleSheet.create({
         }
         
     },
+    black:{
+        color:'#000'
+    },
+    heading:{
+        color:'#ddd',
+        padding:'50px 0',
+        textAlign:'center',
+        fontSize:'50px',
+        fontWeight:'300',
+        fontFamily:'-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
+    },
     padding1:{
-        padding:'10px'
+        padding:'0 10px'
     }
 
 });
