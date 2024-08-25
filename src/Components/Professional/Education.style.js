@@ -5,17 +5,22 @@ export const EducationStyle = StyleSheet.create({
 
     sectionUnderBanner:{
         padding:'20px',
-        width:'800px',
-        display:'block',
+        // width:'800px',
+        flexWrap:'wrap',
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'center',
         margin:'30px auto',
         marginBottom:'170px',
 
     },
-    bannerTextContainer:{
+   Container:{
         display:'flex',
+        padding:'0 40px',
         marginTop:'30px',
         [media.tablet.max]:{
             display:'block',
+
             overflowX:'initial',
         }
     },
@@ -24,7 +29,11 @@ export const EducationStyle = StyleSheet.create({
         height:'100px',
         borderRadius:'50%',
         background:'rgb(135, 206, 235)',
-        padding:'10px'
+        padding:'10px',
+        [media.tablet.max]:{
+            display:'block',
+            // margin:'0 auto'
+        }
    },
     bannerText: {
         fontSize:'19px',
