@@ -9,7 +9,7 @@ function Education() {
            <section >
            <h2 className={css(main.heading,main.black)}>Education</h2>
                 <section className={css(EducationStyle.sectionUnderBanner)}>
-                    <section className={css(EducationStyle.Container)}>
+                    <section className={css(EducationStyle.Container)}  data-aos="fade-up" data-aos-delay="100">
                         <div className={css(EducationStyle.imgContainer)}>
                             <img src="images/degree.png" alt="degree" style={{width:'100%'}}/>
                         </div>
@@ -24,7 +24,7 @@ function Education() {
                             </article>
                         </div>
                     </section>
-                    <section className={css(EducationStyle.Container)}>
+                    <section className={css(EducationStyle.Container)}  data-aos="fade-up" data-aos-delay="200"> 
                         <div className={css(EducationStyle.imgContainer)}>
                              <img src="images/school.png" alt="school" style={{width:'100%'}}/>
                         </div>
@@ -38,7 +38,7 @@ function Education() {
                             </article>
                         </div>
                     </section>
-                    <section className={css(EducationStyle.Container)}>
+                    <section className={css(EducationStyle.Container)}  data-aos="fade-up" data-aos-delay="300">
                         <div className={css(EducationStyle.imgContainer)}>
                             <img src="images/school.png" alt="school" style={{width:'100%'}}/>
                         </div>
