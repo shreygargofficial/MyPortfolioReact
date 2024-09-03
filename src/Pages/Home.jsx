@@ -24,6 +24,7 @@ function Home() {
                 content="Shrey Garg is a front-end developer with having professional experience in 
                 ReactJs. He is currently employed in Mindera."
                 />
+            <meta property="og:image" content="images/Shrey.png" />
             <meta name="keywords" content="shrey garg, shrey garg personal, professional shrey garg data"/>
         </Helmet>
         <section className={css(HomeStyle.container)}>
