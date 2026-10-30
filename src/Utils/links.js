@@ -1,1 +1,4 @@
-export const resume = 'https://docs.google.com/document/d/1nRZi8iP6tEwOBn7c2VSV47IJAPdvdsnpLM6uEZ4eP1I/edit?usp=sharing'
+export const resume =
+  "https://docs.google.com/document/d/1nRZi8iP6tEwOBn7c2VSV47IJAPdvdsnpLM6uEZ4eP1I/edit?usp=sharing";
+export const affiliateEndpoint =
+  "https://affiliatebe-production.up.railway.app";

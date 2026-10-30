@@ -9,20 +9,30 @@ import QapaperBlogger from "./Components/Personal/QapaperBlogger";
 import FinessCertificates from "./Components/Personal/FitnessCertificates";
 import HealthyAndFitClub from "./Components/Personal/HealthyandFitClub";
 import BikeRiding from "./Components/Personal/BikeRiding";
+import Products from "./Pages/Products";
 function RoutesFile() {
-    return ( 
-        <Routes>
-            <Route exact path="/" element={ <Home/> } />
-            <Route exact path="/professional" element={<Professional/>} />
-            <Route exact path="/personal" element={<Personal/>} />
-            <Route exact path="/personal/qapaper" element={<Qapaper/>} />
-            <Route exact path="/personal/qapaperblog" element={<QapaperBlogger/>} />
-            <Route exact path="/personal/fitnessCertificate" element={<FinessCertificates/>} />
-            <Route exact path="/personal/healthyandfitclub" element={<HealthyAndFitClub/>} />
-            <Route exact path="/personal/bikeriding" element={<BikeRiding/>} />
-            <Route path="*" element={<Error404/>} />
-        </Routes>
-     );
+  return (
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/professional" element={<Professional />} />
+      <Route exact path="/personal" element={<Personal />} />
+      <Route exact path="/products" element={<Products />} />
+      <Route exact path="/personal/qapaper" element={<Qapaper />} />
+      <Route exact path="/personal/qapaperblog" element={<QapaperBlogger />} />
+      <Route
+        exact
+        path="/personal/fitnessCertificate"
+        element={<FinessCertificates />}
+      />
+      <Route
+        exact
+        path="/personal/healthyandfitclub"
+        element={<HealthyAndFitClub />}
+      />
+      <Route exact path="/personal/bikeriding" element={<BikeRiding />} />
+      <Route path="*" element={<Error404 />} />
+    </Routes>
+  );
 }
 
 export default RoutesFile;
